@@ -13,16 +13,16 @@
 - **상태**
   - 현재 청색불 ID + [각 lane별 차량 대기 시간의 합] + [각 lane별 정지 차량 대수]
 - **행동**
-  - random traffic signal model : 각 신호등의 청신호의 수
-  - restricted traffic signal model : 0 or 1
+  - _random traffic signal model_ : 각 신호등의 청신호의 수
+  - _restricted traffic signal model_ : 0 or 1
     - 0 : 현재 신호 유지, 1: 다음 청신호로 변경
 - **보상**
   - 지나간 차량 대수 - 정지 차량 대수
 - **조건**
-  - random traffic signal model
+  - _random traffic signal model_
     - 무작위로 청색불 신호 선택하여 진행
     - 청색불의 최소, 최대 점등 시간이 없음
-  - restricted traffic signal model
+  - _restricted traffic signal model_
     - 순서대로 신호 진행
     - 청색불의 최소, 최대 점등 시간이 존재
     - 주 청어어어어ㅓ처처처처ㅓㅇ새부
