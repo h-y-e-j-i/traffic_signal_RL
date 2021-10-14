@@ -1,6 +1,6 @@
 # 결과
 - 시간에 따른 각 신호등의 점등 신호와 차량의 이동을 time-space diagram으로 표현
-
+- 직진하는 차량과 
 ## case03
 <p align="center"><b><i>fixed model</i></b></p>
 <img src="https://user-images.githubusercontent.com/58590260/137255566-88fd95db-727c-4d01-a92e-c4d3f9517e2f.png">
