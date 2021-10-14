@@ -12,8 +12,8 @@
   - case06 : 교차로가 6개인 이천시 도로교통 환경 ![image](https://user-images.githubusercontent.com/58590260/137259384-c9220f41-e80b-44f4-adc6-984875ef6786.png)
 - **알고리즘** : DQN
 - **에이전트** : 신호등
-  - case03 : ![image](https://user-images.githubusercontent.com/58590260/137354672-1b296638-4626-40d7-8637-483c50d98dca.png)
-  - case06 : ![image](https://user-images.githubusercontent.com/58590260/137355202-09f9fe67-e953-4ba2-b4a3-c48c44d450a8.png) 
+  - case03 : ![image](https://user-images.githubusercontent.com/58590260/137367516-463c14a2-0b3b-410c-9944-2742c8308d73.png)
+  - case06 : ![image](https://user-images.githubusercontent.com/58590260/137366199-4e9913d8-d964-4683-94d6-c69c670f9f21.png)
 - **상태**
   - 현재 청색불 ID + [각 lane별 차량 대기 시간의 합] + [각 lane별 정지 차량 대수]
 - **행동**
