@@ -19,10 +19,10 @@
 - **보상**
   - 지나간 차량 대수 - 정지 차량 대수
 - **조건**
-  - random model
+  - random trafficsignal model
     - 무작위로 청색불 신호 선택하여 진행
     - 청색불의 최소, 최대 점등 시간이 없음
-  - restricted model
+  - restricted trafficsignal model
     - 순서대로 신호 진행
     - 청색불의 최소, 최대 점등 시간이 존재
     - 주 청어어어어ㅓ처처처처ㅓㅇ새부
