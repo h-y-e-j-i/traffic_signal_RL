@@ -9,3 +9,13 @@
   
 <p align="center"><b><i>restrcited model</i></b></p>
 <img src="https://user-images.githubusercontent.com/58590260/137255591-a75a8d38-3454-4781-92a9-8c1eb385a1f7.png">
+
+## case06
+<p align="center"><b><i>fixed model</i></b></p>
+![case06_fixed](https://user-images.githubusercontent.com/58590260/137258486-6006e1e3-0cb0-42a6-b597-51f2e727a881.png)
+  
+<p align="center"><b><i>random model</i></b></p>
+![case06_random](https://user-images.githubusercontent.com/58590260/137258514-0ba553dd-f498-4cce-bbd8-47fdf65015d0.png)
+  
+<p align="center"><b><i>restrcited model</i></b></p>
+![case06_restricted](https://user-images.githubusercontent.com/58590260/137258535-30a79a30-ed94-4b3d-a029-bbd597bd308b.png)
