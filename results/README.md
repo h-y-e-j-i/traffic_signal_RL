@@ -1,4 +1,5 @@
-# results
+# 결과
+- 시간에 따른 각 신호등의 점등 신호와 차량의 이동을 time-space diagram으로 표현
 
 ## case03
 <p align="center"><b><i>fixed model</i></b></p>
