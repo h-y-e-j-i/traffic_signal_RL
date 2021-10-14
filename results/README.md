@@ -15,10 +15,10 @@
 
 ## case06
 <p align="center"><b><i> < 기존 신호 체계 > </i></b></p>
-<img src="https://user-images.githubusercontent.com/58590260/137258486-6006e1e3-0cb0-42a6-b597-51f2e727a881.png">
+<img src="https://user-images.githubusercontent.com/58590260/137364474-5dcbf5fd-0b0e-4a3d-8896-9defeadcb19d.png">
   
 <p align="center"><b><i> < random traffic signal model > </i></b></p>
-<img src="https://user-images.githubusercontent.com/58590260/137258514-0ba553dd-f498-4cce-bbd8-47fdf65015d0.png">
+<img src="https://user-images.githubusercontent.com/58590260/137364792-e6ca75a9-dc73-4d63-a357-668d1083d7b2.png">
   
 <p align="center"><b><i> < restrcited traffic signal model > </i></b></p>
-<img src="https://user-images.githubusercontent.com/58590260/137258535-30a79a30-ed94-4b3d-a029-bbd597bd308b.png">
+<img src="https://user-images.githubusercontent.com/58590260/137364968-83a3629a-9a94-4df5-bd92-985c0ad26c88.png">
