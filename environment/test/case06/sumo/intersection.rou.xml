@@ -1,0 +1,237 @@
+<routes>
+   <vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+   
+   <!-- 낮 시간(15:00~16:00) -->
+   
+   <!-- 이천 의료원 독립 OD -->
+   <flow id="AJ26J0" type="car" begin="0" end="7200" vehsPerHour="1" from="E8" to="E0" departLane="best" />
+   <flow id="AJ25J0" type="car" begin="0" end="7200" vehsPerHour="14" from="E5" to="E0" departLane="best" />
+   <flow id="AJ0J25" type="car" begin="0" end="7200" vehsPerHour="16" from="E1" to="E6" departLane="best" />
+   
+   <!-- 설봉아파트 삼거리 독립 OD -->
+   
+   <!-- 증일 사거리 독립 OD -->
+   <flow id="AJ28J30" type="car" begin="0" end="7200" vehsPerHour="155" from="E22" to="E24" departLane="best" />
+   <flow id="AJ30J28" type="car" begin="0" end="7200" vehsPerHour="221" from="E26" to="E23" departLane="best" />
+   
+   <!-- 공설운동장 삼거리 독립 OD -->
+   
+   <!-- 이천 사거리 독립 OD-->
+   <flow id="AJ32J36" type="car" begin="0" end="7200" vehsPerHour="109" from="E40" to="E43" departLane="best" />
+   <flow id="AJ36J32" type="car" begin="0" end="7200" vehsPerHour="151" from="E44" to="E41" departLane="best" />
+   
+   <!-- 설봉 삼거리 독립 OD-->
+   <flow id="AJ24J37" type="car" begin="0" end="7200" vehsPerHour="555" from="E56" to="E55" departLane="best" />
+   <flow id="AJ37J24" type="car" begin="0" end="7200" vehsPerHour="266" from="E54" to="E58" departLane="best" />
+   
+   
+   <!-- 이천 사거리 / 설봉 삼거리 OD -->
+   <flow id="AJ36J37" type="car" begin="0" end="7200" vehsPerHour="56" from="E44" to="E55" departLane="best" />
+   <flow id="AJ37J36" type="car" begin="0" end="7200" vehsPerHour="28" from="E54" to="E43" departLane="best" />
+   <flow id="AJ37J32" type="car" begin="0" end="7200" vehsPerHour="15" from="E54" to="E41" departLane="best" />
+   <flow id="AJ32J37" type="car" begin="0" end="7200" vehsPerHour="110" from="E40" to="E55" departLane="best" />
+   
+   <!-- 공설운동장 삼거리 / 이천 사거리 OD -->
+   <flow id="AJ36J31" type="car" begin="0" end="7200" vehsPerHour="68" from="E44" to="E34" departLane="best" />
+   <flow id="AJ31J36" type="car" begin="0" end="7200" vehsPerHour="69" from="E33" to="E43" departLane="best" />
+   <flow id="AJ31J32" type="car" begin="0" end="7200" vehsPerHour="97" from="E33" to="E41" departLane="best" />
+   
+   <!-- 증일 사거리 / 공설운동장 삼거리 OD -->
+   <flow id="AJ30J31" type="car" begin="0" end="7200" vehsPerHour="34" from="E26" to="E34" departLane="best" />
+   <flow id="AJ28J31" type="car" begin="0" end="7200" vehsPerHour="92" from="E22" to="E34" departLane="best" />
+   <flow id="AJ31J30" type="car" begin="0" end="7200" vehsPerHour="112" from="E33" to="E24" departLane="best" />
+   
+   <!-- 설봉아파트 삼거리 / 증일 사거리 OD -->
+   <flow id="AJ27J30" type="car" begin="0" end="7200" vehsPerHour="7" from="E13" to="E24" departLane="best" />
+   <flow id="AJ28J27" type="car" begin="0" end="7200" vehsPerHour="13" from="E22" to="E14" departLane="best" />
+   
+   <!-- 이천 의료원 / 설봉아파트 삼거리 OD -->
+   <flow id="AJ26J27" type="car" begin="0" end="7200" vehsPerHour="3" from="E8" to="E14" departLane="best" />
+   <flow id="AJ27J26" type="car" begin="0" end="7200" vehsPerHour="7" from="E13" to="E7" departLane="best" />
+   
+   <!-- 이천의료원 / 증일 사거리 OD -->
+   <flow id="AJ25J30" type="car" begin="0" end="7200" vehsPerHour="22" from="E5" to="E24" departLane="best" />
+   
+   <!-- 충주 방향 출발 OD -->
+   <flow id="AJ24J32" type="car" begin="0" end="7200" vehsPerHour="81" from="E56" to="E41" departLane="best" />
+   <flow id="AJ24J31" type="car" begin="0" end="7200" vehsPerHour="40" from="E56" to="E34" departLane="best" />
+   <flow id="AJ24J28" type="car" begin="0" end="7200" vehsPerHour="94" from="E56" to="E23" departLane="best" />
+   <flow id="AJ24J25" type="car" begin="0" end="7200" vehsPerHour="25" from="E56" to="E6" departLane="best" />
+   <flow id="AJ24J0" type="car" begin="0" end="7200" vehsPerHour="479" from="E56" to="E0" departLane="best" />
+   
+   <!-- 서울 방향 출발 OD (AJ0J28 원래값 128 )-->
+   <flow id="AJ0J28" type="car" begin="0" end="7200" vehsPerHour="108" from="E1" to="E23" departLane="best" />
+   <flow id="AJ0J30" type="car" begin="0" end="7200" vehsPerHour="54" from="E1" to="E24" departLane="best" />
+   <flow id="AJ0J24" type="car" begin="0" end="7200" vehsPerHour="582" from="E1" to="E58" departLane="best" />
+   
+   <!-- 서울 방향 도착 OD -->
+   <flow id="AJ30J0" type="car" begin="0" end="7200" vehsPerHour="127" from="E26" to="E0" departLane="best" />
+   <flow id="AJ32J0" type="car" begin="0" end="7200" vehsPerHour="58" from="E40" to="E0" departLane="best" />
+   <flow id="AJ28J0" type="car" begin="0" end="7200" vehsPerHour="82" from="E22" to="E0" departLane="best" />
+   
+   <!-- 충주 방향 도착 OD -->
+   
+   <!-- 보정 OD -->
+   <flow id="AJ24J0_Add" type="car" begin="0" end="7200" vehsPerHour="77" from="E56" to="E0" departLane="best" />
+   <flow id="AJ0J24_Add" type="car" begin="0" end="7200" vehsPerHour="124" from="E1" to="E58" departLane="best" />
+   
+   <!-- 오후 첨두(18:00~19:00) -->
+   
+   <!-- 이천 의료원 독립 OD -->
+   <flow id="BJ26J0" type="car" begin="7200" end="10800" vehsPerHour="9" from="E8" to="E0" departLane="best" />
+   <flow id="BJ25J0" type="car" begin="7200" end="10800" vehsPerHour="8" from="E5" to="E0" departLane="best" />
+   <flow id="BJ0J25" type="car" begin="7200" end="10800" vehsPerHour="27" from="E1" to="E6" departLane="best" />
+   <flow id="BJ0J26" type="car" begin="7200" end="10800" vehsPerHour="1" from="E1" to="E7" departLane="best" />
+   
+   <!-- 설봉아파트 삼거리 독립 OD -->
+   
+   <!-- 증일 사거리 독립 OD -->
+   <flow id="BJ28J30" type="car" begin="7200" end="10800" vehsPerHour="169" from="E22" to="E24" departLane="best" />
+   <flow id="BJ30J28" type="car" begin="7200" end="10800" vehsPerHour="263" from="E26" to="E23" departLane="best" />
+   
+   <!-- 공설운동장 삼거리 독립 OD -->
+   
+   <!-- 이천 사거리 독립 OD-->
+   <flow id="BJ32J36" type="car" begin="7200" end="10800" vehsPerHour="196" from="E40" to="E43" departLane="best" />
+   <flow id="BJ36J32" type="car" begin="7200" end="10800" vehsPerHour="276" from="E44" to="E41" departLane="best" />
+   
+   <!-- 설봉 삼거리 독립 OD-->
+   <flow id="BJ24J37" type="car" begin="7200" end="10800" vehsPerHour="874" from="E56" to="E55" departLane="best" />
+   <flow id="BJ37J24" type="car" begin="7200" end="10800" vehsPerHour="376" from="E54" to="E58" departLane="best" />
+   
+   
+   <!-- 이천 사거리 / 설봉 삼거리 OD -->
+   <flow id="BJ36J37" type="car" begin="7200" end="10800" vehsPerHour="43" from="E44" to="E55" departLane="best" />
+   <flow id="BJ37J36" type="car" begin="7200" end="10800" vehsPerHour="74" from="E54" to="E43" departLane="best" />
+   <flow id="BJ32J37" type="car" begin="7200" end="10800" vehsPerHour="109" from="E40" to="E55" departLane="best" />
+   
+   <!-- 공설운동장 삼거리 / 이천 사거리 OD -->
+   <flow id="BJ36J31" type="car" begin="7200" end="10800" vehsPerHour="135" from="E44" to="E34" departLane="best" />
+   <flow id="BJ31J36" type="car" begin="7200" end="10800" vehsPerHour="33" from="E33" to="E43" departLane="best" />
+   <flow id="BJ31J32" type="car" begin="7200" end="10800" vehsPerHour="138" from="E33" to="E41" departLane="best" />
+   <flow id="BJ32J31" type="car" begin="7200" end="10800" vehsPerHour="65" from="E40" to="E34" departLane="best" />
+   
+   <!-- 증일 사거리 / 공설운동장 삼거리 OD -->
+   <flow id="BJ30J31" type="car" begin="7200" end="10800" vehsPerHour="40" from="E26" to="E34" departLane="best" />
+   <flow id="BJ28J31" type="car" begin="7200" end="10800" vehsPerHour="93" from="E22" to="E34" departLane="best" />
+   <flow id="BJ31J30" type="car" begin="7200" end="10800" vehsPerHour="90" from="E33" to="E24" departLane="best" />
+   <flow id="BJ31J28" type="car" begin="7200" end="10800" vehsPerHour="41" from="E33" to="E23" departLane="best" />
+   
+   <!-- 설봉아파트 삼거리 / 증일 사거리 OD -->
+   <flow id="BJ27J30" type="car" begin="7200" end="10800" vehsPerHour="13" from="E13" to="E24" departLane="best" />
+   <flow id="BJ28J27" type="car" begin="7200" end="10800" vehsPerHour="15" from="E22" to="E14" departLane="best" />
+   
+   <!-- 이천 의료원 / 설봉아파트 삼거리 OD -->
+   <flow id="BJ26J27" type="car" begin="7200" end="10800" vehsPerHour="8" from="E8" to="E14" departLane="best" />
+   <flow id="BJ27J26" type="car" begin="7200" end="10800" vehsPerHour="2" from="E13" to="E7" departLane="best" />
+   <flow id="BJ27J25" type="car" begin="7200" end="10800" vehsPerHour="4" from="E13" to="E6" departLane="best" />
+   
+   <!-- 이천의료원 / 증일 사거리 OD -->
+   <flow id="BJ25J28" type="car" begin="7200" end="10800" vehsPerHour="31" from="E5" to="E23" departLane="best" />
+   
+   <!-- 충주 방향 출발 OD -->
+   <flow id="BJ24J32" type="car" begin="7200" end="10800" vehsPerHour="187" from="E56" to="E41" departLane="best" />
+   <flow id="BJ24J36" type="car" begin="7200" end="10800" vehsPerHour="11" from="E56" to="E43" departLane="best" />
+   <flow id="BJ24J31" type="car" begin="7200" end="10800" vehsPerHour="151" from="E56" to="E34" departLane="best" />
+   <flow id="BJ24J28" type="car" begin="7200" end="10800" vehsPerHour="91" from="E56" to="E23" departLane="best" />
+   <flow id="BJ24J25" type="car" begin="7200" end="10800" vehsPerHour="21" from="E56" to="E6" departLane="best" />
+   <flow id="BJ24J0" type="car" begin="7200" end="10800" vehsPerHour="743" from="E56" to="E0" departLane="best" />
+   
+   <!-- 서울 방향 출발 OD(BJ0J28 원래값 152 ) -->
+   <flow id="BJ0J28" type="car" begin="7200" end="10800" vehsPerHour="102" from="E1" to="E23" departLane="best" />
+   <flow id="BJ0J30" type="car" begin="7200" end="10800" vehsPerHour="77" from="E1" to="E24" departLane="best" />
+   <flow id="BJ0J31" type="car" begin="7200" end="10800" vehsPerHour="64" from="E1" to="E34" departLane="best" />
+   <flow id="BJ0J24" type="car" begin="7200" end="10800" vehsPerHour="739" from="E1" to="E58" departLane="best" />
+   
+   <!-- 서울 방향 도착 OD -->
+   <flow id="BJ30J0" type="car" begin="7200" end="10800" vehsPerHour="227" from="E26" to="E0" departLane="best" />
+   <flow id="BJ28J0" type="car" begin="7200" end="10800" vehsPerHour="95" from="E22" to="E0" departLane="best" />
+   
+   <!-- 충주 방향 도착 OD -->
+   <flow id="BJ31J24" type="car" begin="7200" end="10800" vehsPerHour="112" from="E33" to="E58" departLane="best" />
+   <flow id="BJ32J24" type="car" begin="7200" end="10800" vehsPerHour="126" from="E40" to="E58" departLane="best" />
+   
+   <!-- 보정 OD -->
+   <flow id="BJ24J0_Add" type="car" begin="7200" end="10800" vehsPerHour="271" from="E56" to="E0" departLane="best" />
+   <flow id="BJ0J24_Add" type="car" begin="7200" end="10800" vehsPerHour="84" from="E1" to="E58" departLane="best" />
+   
+   <!-- 밤 시간(20:00~21:00) -->
+   
+   <!-- 이천 의료원 독립 OD -->
+   <flow id="CJ26J0" type="car" begin="10800" end="18000" vehsPerHour="1" from="E8" to="E0" departLane="best" />
+   <flow id="CJ25J0" type="car" begin="10800" end="18000" vehsPerHour="12" from="E5" to="E0" departLane="best" />
+   <flow id="CJ0J25" type="car" begin="10800" end="18000" vehsPerHour="12" from="E1" to="E6" departLane="best" />
+   
+   <!-- 설봉아파트 삼거리 독립 OD -->
+   
+   <!-- 증일 사거리 독립 OD -->
+   <flow id="CJ28J30" type="car" begin="10800" end="18000" vehsPerHour="86" from="E22" to="E24" departLane="best" />
+   <flow id="CJ30J28" type="car" begin="10800" end="18000" vehsPerHour="116" from="E26" to="E23" departLane="best" />
+   
+   <!-- 공설운동장 삼거리 독립 OD -->
+   
+   <!-- 이천 사거리 독립 OD-->
+   <flow id="CJ32J36" type="car" begin="10800" end="18000" vehsPerHour="113" from="E40" to="E43" departLane="best" />
+   <flow id="CJ36J32" type="car" begin="10800" end="18000" vehsPerHour="114" from="E44" to="E41" departLane="best" />
+   
+   <!-- 설봉 삼거리 독립 OD-->
+   <flow id="CJ24J37" type="car" begin="10800" end="18000" vehsPerHour="401" from="E56" to="E55" departLane="best" />
+   <flow id="CJ37J24" type="car" begin="10800" end="18000" vehsPerHour="203" from="E54" to="E58" departLane="best" />
+   
+   
+   <!-- 이천 사거리 / 설봉 삼거리 OD -->
+   <flow id="CJ36J37" type="car" begin="10800" end="18000" vehsPerHour="17" from="E44" to="E55" departLane="best" />
+   <flow id="CJ37J36" type="car" begin="10800" end="18000" vehsPerHour="17" from="E54" to="E43" departLane="best" />
+   <flow id="CJ32J37" type="car" begin="10800" end="18000" vehsPerHour="116" from="E40" to="E55" departLane="best" />
+   
+   <!-- 공설운동장 삼거리 / 이천 사거리 OD -->
+   <flow id="CJ36J31" type="car" begin="10800" end="18000" vehsPerHour="69" from="E44" to="E34" departLane="best" />
+   <flow id="CJ31J36" type="car" begin="10800" end="18000" vehsPerHour="53" from="E33" to="E43" departLane="best" />
+   <flow id="CJ31J32" type="car" begin="10800" end="18000" vehsPerHour="81" from="E33" to="E41" departLane="best" />
+   <flow id="CJ32J31" type="car" begin="10800" end="18000" vehsPerHour="53" from="E40" to="E34" departLane="best" />
+   
+   <!-- 증일 사거리 / 공설운동장 삼거리 OD -->
+   <flow id="CJ30J31" type="car" begin="10800" end="18000" vehsPerHour="6" from="E26" to="E34" departLane="best" />
+   <flow id="CJ28J31" type="car" begin="10800" end="18000" vehsPerHour="61" from="E22" to="E34" departLane="best" />
+   <flow id="CJ31J28" type="car" begin="10800" end="18000" vehsPerHour="67" from="E33" to="E23" departLane="best" />
+   
+   <!-- 설봉아파트 삼거리 / 증일 사거리 OD -->
+   <flow id="CJ27J28" type="car" begin="10800" end="18000" vehsPerHour="6" from="E13" to="E23" departLane="best" />
+   <flow id="CJ28J27" type="car" begin="10800" end="18000" vehsPerHour="7" from="E22" to="E14" departLane="best" />
+   
+   <!-- 이천 의료원 / 설봉아파트 삼거리 OD -->
+   <flow id="CJ26J27" type="car" begin="10800" end="18000" vehsPerHour="2" from="E8" to="E14" departLane="best" />
+   <flow id="CJ27J26" type="car" begin="10800" end="18000" vehsPerHour="3" from="E13" to="E7" departLane="best" />
+   
+   <!-- 이천의료원 / 증일 사거리 OD -->
+   <flow id="CJ25J28" type="car" begin="10800" end="18000" vehsPerHour="14" from="E5" to="E23" departLane="best" />
+   
+   <!-- 충주 방향 출발 OD -->
+   <flow id="CJ24J32" type="car" begin="10800" end="18000" vehsPerHour="83" from="E56" to="E41" departLane="best" />
+   <flow id="CJ24J36" type="car" begin="10800" end="18000" vehsPerHour="13" from="E56" to="E43" departLane="best" />
+   <flow id="CJ24J31" type="car" begin="10800" end="18000" vehsPerHour="52" from="E56" to="E34" departLane="best" />
+   <flow id="CJ24J28" type="car" begin="10800" end="18000" vehsPerHour="3" from="E56" to="E23" departLane="best" />
+   <flow id="CJ24J30" type="car" begin="10800" end="18000" vehsPerHour="38" from="E56" to="E24" departLane="best" />
+   <flow id="CJ24J25" type="car" begin="10800" end="18000" vehsPerHour="11" from="E56" to="E6" departLane="best" />
+   <flow id="CJ24J0" type="car" begin="10800" end="18000" vehsPerHour="391" from="E56" to="E0" departLane="best" />
+   
+   <!-- 서울 방향 출발 OD -->
+   <flow id="CJ0J28" type="car" begin="10800" end="18000" vehsPerHour="60" from="E1" to="E23" departLane="best" />
+   <flow id="CJ0J30" type="car" begin="10800" end="18000" vehsPerHour="56" from="E1" to="E24" departLane="best" />
+   <flow id="CJ0J24" type="car" begin="10800" end="18000" vehsPerHour="421" from="E1" to="E58" departLane="best" />
+   
+   <!-- 서울 방향 도착 OD -->
+   <flow id="CJ30J0" type="car" begin="10800" end="18000" vehsPerHour="73" from="E26" to="E0" departLane="best" />
+   <flow id="CJ28J0" type="car" begin="10800" end="18000" vehsPerHour="68" from="E22" to="E0" departLane="best" />
+   
+   <!-- 충주 방향 도착 OD -->
+   <flow id="CJ25J24" type="car" begin="10800" end="18000" vehsPerHour="14" from="E5" to="E58" departLane="best" />
+   <flow id="CJ28J24" type="car" begin="10800" end="18000" vehsPerHour="3" from="E22" to="E58" departLane="best" />
+   <flow id="CJ30J24" type="car" begin="10800" end="18000" vehsPerHour="6" from="E26" to="E58" departLane="best" />
+   <flow id="CJ31J24" type="car" begin="10800" end="18000" vehsPerHour="40" from="E33" to="E58" departLane="best" />
+   <flow id="CJ32J24" type="car" begin="10800" end="18000" vehsPerHour="28" from="E40" to="E58" departLane="best" />
+   
+   <!-- 보정 OD -->
+   <flow id="CJ24J0_Add" type="car" begin="10800" end="18000" vehsPerHour="168" from="E56" to="E0" departLane="best" />
+   <flow id="CJ0J24_Add" type="car" begin="10800" end="18000" vehsPerHour="116" from="E1" to="E58" departLane="best" />
+</routes>

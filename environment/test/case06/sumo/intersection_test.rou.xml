@@ -1,0 +1,25 @@
+<routes>
+   <vType id="car" type="passenger" length="5" accel="3.5" decel="2.2" sigma="1.0"/>
+   <route id="test route left2right" edges="E1 E4 E10 E12 E16 E18 E19 E21 E28 E31 E32 E36 E39 E48 gneE22 E53 E57 E58"/>  
+   <route id="test route right2left" edges="E56 E52 E50 E49 E47 E38 E37 E35 E30 E29 E27 E20 E17 E15 E11 E9 E2 E0"/> 
+   <vehicle id="veh01D" route="test route left2right" type="car" depart="0" color="1,0,0"/>
+   <vehicle id="veh01U" route="test route right2left" type="car" depart="1" color="0.5,0.5,0"/>
+   <vehicle id="veh02U" route="test route right2left" type="car" depart="13" color="0.5,0,0.5"/>
+   <vehicle id="veh02D" route="test route left2right" type="car" depart="22" color="1,1,0"/>
+   <vehicle id="veh03U" route="test route right2left" type="car" depart="14" color="0,0.5,0.5"/>
+   <vehicle id="veh03D" route="test route left2right" type="car" depart="40" color="1,1,1"/>
+   <vehicle id="veh04U" route="test route right2left" type="car" depart="43" color="0,0,0.5"/>
+   <vehicle id="veh04D" route="test route left2right" type="car" depart="50" color="0,1,0"/>
+   <vehicle id="veh05U" route="test route right2left" type="car" depart="57" color="0.5,0.5,0.5"/>
+   <vehicle id="veh05D" route="test route left2right" type="car" depart="58" color="0,1,1"/>
+   <vehicle id="veh06U" route="test route right2left" type="car" depart="59" color="0.3,0,0"/>
+   <vehicle id="veh06D" route="test route left2right" type="car" depart="61" color="0,0,1"/>
+   <vehicle id="veh07U" route="test route right2left" type="car" depart="74" color="0.0,0.3,0"/>
+   <vehicle id="veh07D" route="test route left2right" type="car" depart="91" color="1,0,1"/>
+   <vehicle id="veh08U" route="test route right2left" type="car" depart="101" color="0.0,0,0.3"/>
+   <vehicle id="veh08D" route="test route left2right" type="car" depart="105" color="0.5,0,0"/>
+   <vehicle id="veh09U" route="test route right2left" type="car" depart="121" color="0.3,0.3,0"/>
+   <vehicle id="veh09D" route="test route left2right" type="car" depart="141" color="0,0.5,0"/>
+   <vehicle id="veh10U" route="test route right2left" type="car" depart="149" color="0.3,0,0.3"/>
+   <vehicle id="veh10D" route="test route left2right" type="car" depart="160" color="0,0,0.5"/> 
+</routes>
