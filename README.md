@@ -13,8 +13,8 @@
 - **상태**
   - 현재 청색불 ID + [각 lane별 차량 대기 시간의 합] + [각 lane별 정지 차량 대수]
 - **행동**
-  - random model : 각 신호등의 청신호의 수
-  - restricted model : 0 or 1
+  - random trafficsignal model : 각 신호등의 청신호의 수
+  - restricted trafficsignal model : 0 or 1
     - 0 : 현재 신호 유지, 1: 다음 청신호로 변경
 - **보상**
   - 지나간 차량 대수 - 정지 차량 대수
