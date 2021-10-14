@@ -1,11 +1,11 @@
 # results
 
 ## case03
-<p align="center" style="font-size:15px;"><b><i>fixed model</i></b></p>
+<p align="center"><b><i>fixed model</i></b></p>
 <img src="https://user-images.githubusercontent.com/58590260/137255566-88fd95db-727c-4d01-a92e-c4d3f9517e2f.png">
   
-<p align="center" style="font-size:15px;"><b><i>random model</i></b></p>
+<p align="center"><b><i>random model</i></b></p>
 <img src="https://user-images.githubusercontent.com/58590260/137255576-458377f4-cec6-4a1b-a772-61e1e627b048.png">  
   
-<p align="center" style="font-size:15px;"><b><i>restrcited model</i></b></p>
+<p align="center"><b><i>restrcited model</i></b></p>
 <img src="https://user-images.githubusercontent.com/58590260/137255591-a75a8d38-3454-4781-92a9-8c1eb385a1f7.png">
