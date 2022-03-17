@@ -51,7 +51,7 @@
 | 점등 시간 & 주기 | 청색불의 최소, 최대 점등 시간이 없음 | 각 신호등에는 주기가 있음 |
 
 ## 📃 연구 결과
-### 1️⃣case 03
+### 1️⃣ case 03
 ![Untitled](https://user-images.githubusercontent.com/58590260/158837379-66ee9a1f-f248-4f21-b357-a411fd803799.png)
 ![Untitled (1)](https://user-images.githubusercontent.com/58590260/158837487-fdb523eb-25cc-4ed1-b590-2149727a39ed.png)
 ### 2️⃣ case 06
