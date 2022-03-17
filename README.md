@@ -10,6 +10,9 @@
 
 
 ## 🛣︎ 학습 환경
+![image](https://user-images.githubusercontent.com/58590260/158842024-f2f9e036-13bb-4149-8290-3e03e813d563.png)
+- 2개의 도로 환경에서 각각 제약 있는 모델과 없는 모델로 학습한 뒤 Time space diagram으로 모델 결과 비교하였습니다
+
 **🛠︎ 모델** :  DQN
 
 **🛠︎ 도로 네트워크**
