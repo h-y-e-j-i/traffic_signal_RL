@@ -13,6 +13,56 @@
 <img src="https://user-images.githubusercontent.com/58590260/158842422-26a764f6-926b-46f1-879c-860d860c5777.png" width=50%><br>
 - 2개의 도로 환경에서 각각 제약 있는 모델과 없는 모델로 학습
 
+## 🏢 파일 구조
+- case03 : 교차로 2개
+- case06 : 교차로 6개(이천시)
+```
+traffic_signal_RL
+├── README.md<br>
+├── Icheon_restricted_DQN.py
+├── Ichoen_random_DQN.py
+├── case03_random_DQN.py
+├── case03_restricted_DQN.py
+├── environment/
+│   ├── test/
+│   │   ├── case03/
+│   │   │   ├── case03TestMultiEnv_random_timespace.py
+│   │   │   ├── case03TestMultiEnv_random_vehicle.py
+│   │   │   ├── case03TestMultiEnv_restricted_timespace.py
+│   │   │   ├── case03TestMultiEnv_restricted_vehicle.py
+│   │   │   └── sumo/
+│   │   │        ├── intersection.net.xml
+│   │   │        ├── intersection.rou.xml
+│   │   │        └── intersection_test.rou.xml
+│   │   ├── case06
+│   │   │   ├── IcheonTestMultiEnv_random_timespace.py
+│   │   │   ├── IcheonTestMultiEnv_random_vehicle.py
+│   │   │   ├── IcheonTestMultiEnv_restricted_timespace.py
+│   │   │   ├── IcheonTestMultiEnv_restricted_vehicle.py
+│   │   │   └── sumo/
+│   │   │        ├── intersection.net.xml
+│   │   │        ├── intersection.rou.xml
+│   │   │        └── intersection_test.rou.xml
+│   └── train/
+└── reseults/
+   ├── checkpoint/
+   ├── case03_random
+   │   ├── checkpoint-8001
+   │   └── checkpoint-8001.tune_metadata
+   ├── case03_restricted/
+   │   ├── checkpoint-8001
+   │   └── checkpoint-8001.tune_metadata
+   ├── case06_random/
+   │   ├── checkpoint-2501
+   │   └── checkpoint-2501.tune_metadata
+   └── case06_restricted
+       ├── checkpoint-2501
+       └── checkpoint-2501.tune_metadata
+
+```
+  
+
+
 **🛠︎ 도로 네트워크**
 
 | 교차로 2개 | 교차로 6개(이천시) |
